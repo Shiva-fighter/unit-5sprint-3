@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "title": "test1",
+      "status": true,
+      "id": "1648139171722"
+    },
+    {
+      "title": "test2",
+      "status": false,
+      "id": "1648139175521"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
