@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext } from 'react';
 import { LoginContext } from "../Contexts/LoginContext"
 function Navbar() {
     const {email ,setEmail,password,setPassword,toggleAuth,isAuth, setIsAuth}=useContext(LoginContext)
