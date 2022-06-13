@@ -1,1 +1,1 @@
-export const LOGIN_STAT = "LOGIN_STAT";
+export let LOGIN_STAT = "LOGIN_STAT";
