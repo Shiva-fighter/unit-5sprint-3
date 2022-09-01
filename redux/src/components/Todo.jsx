@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 import { addTodo, deleteTodo, removeTodo } from '../actions';
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux"
 export const Todo = () => {
   const dispatch= useDispatch();
   const [inputData, setInputData] = useState("");
